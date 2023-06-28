@@ -5,6 +5,10 @@
     "scripts": {
         "start1": "node --watch ./src/server.js",
         "start2": "nodemon ./src/server.js",
+<<<<<<< HEAD
+=======
+        "stop": "killall -9 node",
+>>>>>>> d945ea9675924c96a29cf57e88038856732c01ee
         "eslint": "eslint ./src"
     },
     "repository": {

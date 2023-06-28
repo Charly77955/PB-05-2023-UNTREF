@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="es-AR">
 
@@ -20,4 +21,28 @@
 
     <footer><%- include('../partials/footer'); %></footer>
 </body>
+=======
+<!DOCTYPE html>
+<html lang="es-AR">
+
+<head><%- include('../partials/head'); %></head>
+
+<body>
+    <header><%- include('../partials/header'); %></header>
+
+    <main>
+        <h1>EJS: Ejemplo de uso de include</h1>
+        <br>
+        <% if (coche?.id) { %>
+            <p>Marca:<%= ` ${coche.marca}` %></p>
+            <p>Modelo:<%= " " + coche.modelo %></p>
+            <p>Año de fabricación:<%= coche.anio %></p>
+        <% } %>
+
+        <%#Esto es un comentario%>
+    </main>
+
+    <footer><%- include('../partials/footer'); %></footer>
+</body>
+>>>>>>> d945ea9675924c96a29cf57e88038856732c01ee
 </html>

@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 {
     "nombre": "Juan",
     "apellido": "Ferrero",
     "edad": 21
+=======
+{
+    "nombre": "Juan",
+    "apellido": "Ferrero",
+    "edad": 21
+>>>>>>> d945ea9675924c96a29cf57e88038856732c01ee
 }

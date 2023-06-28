@@ -1,0 +1,34 @@
+{
+    "Productos":[
+        {
+            "id":"1",
+            "nombre":"Fernet Branca",
+            "bebida": "Alcoholica",
+            "importe": "$2500",
+            "stock": "10 unidades"
+
+        },
+        {
+            "id":"2",
+            "nombre":"Campari",
+            "bebida": "Alcoholica",
+            "importe": "$1800",
+            "stock": "25 unidades"
+        },
+        {
+            "id":"3",
+            "nombre":"Jack Daniels",
+            "bebida": "Alcoholica",
+            "importe": "$10050",
+            "stock": "5 unidades"
+        },
+        {
+            "id":"4",
+            "nombre":"Cerveza",
+            "bebida": "Alcoholica",
+            "importe": "$500",
+            "stock": "40 unidades"
+        }
+
+    ]
+}

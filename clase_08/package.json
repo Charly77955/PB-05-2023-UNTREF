@@ -1,9 +1,17 @@
 {
+<<<<<<< HEAD
     "name": "clase_06",
+=======
+    "name": "clase_08",
+>>>>>>> d945ea9675924c96a29cf57e88038856732c01ee
     "version": "1.0.0",
     "description": "Curso de Programación BackEnd - UNTREF",
     "scripts": {
         "start": "nodemon ./src/server.js",
+<<<<<<< HEAD
+=======
+        "stop": "killall -9 node",
+>>>>>>> d945ea9675924c96a29cf57e88038856732c01ee
         "eslint": "eslint ./src"
     },
     "repository": {
