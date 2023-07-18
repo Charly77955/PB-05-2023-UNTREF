@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 {
     "name": "clase_03",
     "version": "1.0.0",
@@ -41,3 +42,23 @@
     }
 }
 >>>>>>> d945ea9675924c96a29cf57e88038856732c01ee
+=======
+{
+    "name": "clase_03",
+    "version": "1.0.0",
+    "description": "Curso de Programación BackEnd - UNTREF",
+    "scripts": {
+        "eslint": "eslint ./src"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/serinformatico/PB-05-2023-UNTREF.git"
+    },
+    "keywords": [],
+    "author": "Lic. Sergio Regalado Alessi",
+    "license": "MIT",
+    "devDependencies": {
+        "eslint": "^8.44.0"
+    }
+}
+>>>>>>> 753122c627abb2ce1c8e7e793d3ebce4fcb9ba5a

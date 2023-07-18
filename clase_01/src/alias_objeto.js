@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 // Declaración e instanciación o creación de un objeto persona.
 const persona = {
     nombre_primero: "Juan",
@@ -31,4 +32,21 @@ const {
 } = persona;
 
 >>>>>>> d945ea9675924c96a29cf57e88038856732c01ee
+=======
+// Declaración e instanciación o creación de un objeto persona.
+const persona = {
+    nombre_primero: 'Juan',
+    nombre_segundo: 'Pablo',
+    edad_actual: 21
+};
+
+// Destructuración de un objeto con definición de alias. Primero
+// Se declara el nombre de la propiedad, dos puntos y el alias.
+const {
+    nombre_primero: nombre1,
+    nombre_segundo: nombre2,
+    edad_actual: edadAcutal
+} = persona;
+
+>>>>>>> 753122c627abb2ce1c8e7e793d3ebce4fcb9ba5a
 console.log(nombre1, nombre2, edadAcutal);

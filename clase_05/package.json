@@ -1,11 +1,15 @@
 {
-    "name": "clase_05",
+    "name": "clase_06",
     "version": "1.0.0",
     "description": "Curso de Programación BackEnd - UNTREF",
     "scripts": {
+<<<<<<< HEAD
         "start": "nodemon ./src/server.js",
 <<<<<<< HEAD
 =======
+=======
+        "start": "node --watch --no-warnings ./src/server.js",
+>>>>>>> 753122c627abb2ce1c8e7e793d3ebce4fcb9ba5a
         "stop": "killall -9 node",
 >>>>>>> d945ea9675924c96a29cf57e88038856732c01ee
         "eslint": "eslint ./src"
@@ -17,14 +21,11 @@
     "keywords": [],
     "author": "Lic. Sergio Regalado Alessi",
     "license": "MIT",
-    "devDependencies": {
-        "eslint": "8.41.0",
-        "eslint-config-airbnb-base": "15.0.0",
-        "eslint-plugin-import": "2.27.5",
-        "nodemon": "^2.0.22"
-    },
     "dependencies": {
-        "ejs": "^3.1.9",
-        "express": "^4.18.2"
+        "express": "^4.18.2",
+        "ejs": "^3.1.9"
+    },
+    "devDependencies": {
+        "eslint": "^8.44.0"
     }
 }
